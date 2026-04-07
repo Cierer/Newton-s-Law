@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Newton’s Law Calculator</title>
+
+    <!-- Basic styling for layout and spacing -->
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 600px;
+            margin: auto;
+        }
+        input, button {
+            margin: 5px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page heading -->
+    <h2>Second Newton’s Law Calculator</h2>
+
+    <!-- User input fields -->
+    <label>Initial Velocity</label>
+    <input id="vi" type="number">
+
+    <label>Acceleration</label>
+    <input id="a" type="number">
+
+    <label>Time</label>
+    <input id="t" type="number">
+
+    <!-- Field where user enters their calculated answer -->
+    <label>Your Answer</label>
+    <input id="answer" type="number">
+
+    <!-- Button triggers calculation function -->
+    <button onclick="calculate()">Submit</button>
+
+    <!-- Displays result from server -->
+    <p id="result"></p>
+
+    <!-- Link to compiled JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
